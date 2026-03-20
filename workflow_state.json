@@ -1,20 +1,20 @@
 {
   "project_name": "textkitchen",
   "objective": "Test a relay-style OpenHands Cloud handoff loop where each conversation completes one bounded repo step and then spawns the next conversation.",
-  "current_focus": "step_01_write_handoff_marker",
+  "current_focus": "step_02_mark_workflow_complete",
   "status": "active",
-  "next_step": "step_01_write_handoff_marker",
+  "next_step": "step_02_mark_workflow_complete",
   "steps": [
     {
       "id": "step_01_write_handoff_marker",
       "title": "Write a handoff marker file",
-      "status": "pending",
+      "status": "done",
       "acceptance_criteria": [
         "Create `.openhands/context/handoff_step_01.txt`",
         "Write a short note that step 1 completed in the repo",
         "Update `.openhands/context/last_run.md` and `.openhands/context/next_prompt.md` for the next conversation"
       ],
-      "last_result": ""
+      "last_result": "Completed 2026-03-20. Created handoff_step_01.txt, updated context files, spawning next conversation."
     },
     {
       "id": "step_02_mark_workflow_complete",

@@ -1,4 +1,18 @@
 # Last Run
 
-No relay steps have completed on this branch yet.
-This branch is seeded for an end-to-end OpenHands Cloud handoff test.
+## Step 1 Completed: step_01_write_handoff_marker
+
+**Completed:** 2026-03-20T00:51:24Z
+
+### Files Changed
+- `.openhands/context/handoff_step_01.txt` - Created (marker file for step 1)
+- `workflow_state.json` - Updated (step 1 marked done, focus moved to step 2)
+- `.openhands/context/last_run.md` - Updated (this file)
+- `.openhands/context/next_prompt.md` - Rewritten for step 2
+
+### Next Action
+Spawning next conversation to complete `step_02_mark_workflow_complete`.
+
+### Handoff Details
+- `start_task_id`: (pending - will be updated after spawn)
+- `app_conversation_id`: (pending - will be updated after spawn)
