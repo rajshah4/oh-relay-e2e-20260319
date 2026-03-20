@@ -14,5 +14,5 @@
 Spawning next conversation to complete `step_02_mark_workflow_complete`.
 
 ### Handoff Details
-- `start_task_id`: (pending - will be updated after spawn)
-- `app_conversation_id`: (pending - will be updated after spawn)
+- `start_task_id`: df13081cab9a4f4b8c7fe72111c3d7a2
+- `app_conversation_id`: 939e5b35cad64727870f4acc10dee544
